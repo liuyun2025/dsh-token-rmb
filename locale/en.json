@@ -1,0 +1,6 @@
+{
+  "meta": {
+    "title": "Token cost (¥)",
+    "description": "Shows each turn's estimated CNY cost right after the usage/time indicator, with peak/off-peak pricing."
+  }
+}
