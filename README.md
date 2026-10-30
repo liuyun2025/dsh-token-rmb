@@ -21,6 +21,14 @@ A small web plugin that appends one number to the assistant action row — the e
 - 数据用该轮 `tokenUsage` 的模型上报用量（与官方用量面板同源），不是按字符数估的。
 - 金额内部用皮元（1e-12 元）整数运算，展示三档：`≈¥0.86` / `≈¥0.0032` / `<¥0.0001`。
 
+### 界面
+
+插件安装后（多出`≈¥0.68`）
+![image.png](https://lybiji.oss-cn-shenzhen.aliyuncs.com/jietu/20261030-140138-3ba28dc12e7347dcaf8fcc45b4571b23.png)
+鼠标放在上面
+![image.png](https://lybiji.oss-cn-shenzhen.aliyuncs.com/jietu/20261030-140202-41da4f069b9c46f4a08cefb28c52b903.png)
+
+
 ### 与 `dsh-turn-cost` 的区别
 
 [dsh-turn-cost](https://github.com/WFMinerva/dsh-turn-cost) 功能更全（每轮 + 会话累计、按步取价、内置法定节假日）。本插件是**极简版**，取舍如下：
